@@ -1,0 +1,42 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+
+# Android / Gradle
+.gradle/
+build/
+**/build/
+*.apk
+*.aab
+*.iml
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# OS
+.DS_Store
+
+app/release/
+**/release/

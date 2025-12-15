@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.framedrop.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_home_to_receive"
+            app:destination="@id/receiveFragment"
+            app:enterAnim="@anim/slide_in_up"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out_down"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.framedrop.HistoryFragment"
+        android:label="History"/>
+
+    <fragment
+        android:id="@+id/receiveFragment"
+        android:name="com.example.framedrop.ReceiveFragment"
+        android:label="Receive"/>
+
+</navigation>

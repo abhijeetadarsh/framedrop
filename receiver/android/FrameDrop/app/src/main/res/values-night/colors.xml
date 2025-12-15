@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Override colors for dark theme -->
+    <color name="md_theme_background">#101418</color>
+    <color name="md_theme_on_background">#E1E2E5</color>
+
+    <color name="md_theme_surface">#1A1C20</color>
+    <color name="md_theme_on_surface">#E1E2E5</color>
+    <color name="md_theme_surface_variant">#42474E</color>
+    <color name="md_theme_on_surface_variant">#C2C7CF</color>
+</resources>
